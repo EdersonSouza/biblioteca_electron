@@ -3,10 +3,10 @@
 class EmprestimoController {
   async index(req, res) {
     const emprestimos = await _Emprestimos2.default.find()
-    .populate('Aluno')
-    .populate('Livro');
+    .populate('aluno')
+    .populate('livro');
 
-    return res.json(autores);
+    return res.json(emprestimos);
   }
 
   async show(req, res) {

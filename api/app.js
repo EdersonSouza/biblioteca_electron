@@ -12,7 +12,7 @@ class App {
     this.database();
     this.middlewares();
     this.routes();
-    this.express.use(_express2.default.static(__dirname + '/vue'));
+    this.express.use(_express2.default.static(__dirname + '/vue'))
   }
 
   database() {

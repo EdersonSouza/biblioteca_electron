@@ -5,7 +5,7 @@ var _EditoraController = require('./EditoraController'); var _EditoraController2
 
 class LivroController {
   async index(req, res) {
-    const livros = await _Livro2.default.find().populate('categoria');
+    const livros = await _Livro2.default.find().populate('categoria').populate('_autor').populate('_Editora');
 
     return res.json(livros);
   }

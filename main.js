@@ -11,7 +11,7 @@ function createWindow() {
          webPreferences:{nodeIntegration:true}}
     )
     // win.webContents.openDevTools()
-    win.loadURL('http://localhost:3000/')
+    win.loadURL('http://localhost:5000/')
     
     win.focus();
 
