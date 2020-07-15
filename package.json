@@ -1,13 +1,13 @@
 {
-  "name": "electron-quick-start",
+  "name": "biblioteca_braz",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "aplicação desktop para biblioteca",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "build": "electron-builder"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/EdersonSouza/biblioteca_electron.git",
   "keywords": [
     "Electron",
     "quick",
